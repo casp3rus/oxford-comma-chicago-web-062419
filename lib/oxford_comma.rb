@@ -1,4 +1,6 @@
 def oxford_comma(array)
   array.join
-  array.join(" and ")
+  if array.length == 2 
+    puts "#{array[0]} and #{array[1]}"
+  end
 end
